@@ -1,10 +1,15 @@
 import React from 'react';
-import Products from './components/Products/Products'
+// import Products from './components/Products/Products'
+// import Navbar from './components/NavBar/Navbar'
+
+import { Products, Navbar } from './components';
 
 const App = () => {
-  return <div>
+  return (<div>
+      <Navbar />
       <Products />
-  </div>;
+  </div>
+  )
 };
 
 export default App;

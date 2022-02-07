@@ -29,7 +29,6 @@ const Product = ( {product} ) => {
           </IconButton>
 
       </CardActions>
-
   </Card>)
 };
 
